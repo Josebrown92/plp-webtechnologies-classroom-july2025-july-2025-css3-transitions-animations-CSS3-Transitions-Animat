@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <!-- ===== HEADER SECTION ===== -->
+  <header>
+    <h1 class="fade-in">Welcome to My Portfolio</h1>
+    <p>Front-End Developer | Designer | Creator</p>
+    <button id="themeToggle">Toggle Theme</button>
+  </header>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate developer who loves building interactive and
+      user-friendly websites. Scroll down to see my work!
+    </p>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card slide-up">
+      <h3>Portfolio Website</h3>
+      <p>A personal website showcasing my skills, projects, and contact info.</p>
+    </div>
+    <div class="project-card slide-up">
+      <h3>To-Do App</h3>
+      <p>A simple task manager app with local storage support.</p>
+    </div>
+    <div class="flip-card">
+    <div class="flip-card-inner">
+    <div class="flip-card-front">click me</div>
+    <div class="flip-card-back">page that visually responds to user interaction and/or time-based triggers using only CSS.
+</div>
+    </div>
+    </div>
+
+<div id="loader" class="loader"></div>
+<button id="startLoader">Start Loading</button>
+<button id="stopLoader">Stop Loading</button>
+  </section>
+    <!-- Animated Box -->
+  <div id="animateBox" class="box"></div>
+<button id="animateBtn">Animate Box</button>
+
+
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Link to external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
